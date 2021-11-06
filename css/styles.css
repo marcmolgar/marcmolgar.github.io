@@ -210,7 +210,8 @@ a:visitied,a:hover,a:active{
     line-height:2em;
     text-transform:uppercase;
     font-weight:700;
-    color:#000
+    color:#000 !important;
+    cursor: pointer !important;
 }
 .actions .action:after{
     content:"";
