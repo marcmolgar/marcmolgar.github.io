@@ -197,17 +197,6 @@ a:active {
   color: #fff;
   box-shadow: 0 0 1px 7px rgba(182, 38, 44, 0.15);
 }
-button,
-input[type="submit"],
-input[type="reset"] {
-  background: none !important;
-  color: inherit !important;
-  border: none !important;
-  padding: 0 !important;
-  font: inherit !important;
-  cursor: pointer !important;
-  outline: inherit !important;
-}
 .actions {
   margin: 3em auto;
   text-align: center;
@@ -226,6 +215,12 @@ input[type="reset"] {
   font-weight: 700;
   color: #000 !important;
   cursor: pointer !important;
+
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  font: inherit !important;
+  outline: inherit !important;
 }
 .actions .action:after {
   content: "";
