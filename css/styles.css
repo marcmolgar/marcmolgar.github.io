@@ -212,7 +212,6 @@ a:active {
   height: 2em;
   line-height: 2em;
   text-transform: uppercase;
-  font-weight: 700;
   color: #000 !important;
   cursor: pointer !important;
 
@@ -220,6 +219,7 @@ a:active {
   border: none !important;
   padding: 0 !important;
   font: inherit !important;
+  font-weight: 700 !important;
   outline: inherit !important;
 }
 .actions .action:after {
